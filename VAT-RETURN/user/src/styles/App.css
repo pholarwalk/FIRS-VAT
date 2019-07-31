@@ -1,0 +1,401 @@
+.App{
+  text-align: center;
+}
+
+.App-logo{
+  animation: scale 2000ms ease-in-out forwards;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header{
+  background-color: #009051;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.form-bg{
+  background:#e3e9f1;
+}
+.full-form{
+  width: 70%;
+  margin: auto;
+  
+}
+.credential-container{
+  width: 80%;
+  margin: auto;
+}
+
+.nav-link{
+margin: 10px;
+font-weight: 700;
+font-size: 15px;
+color:#60666d;
+}
+.line{
+margin-left: 167px;
+position: fixed;
+margin-top: 32px;
+z-index: 1;
+}
+
+.B-jumbotron1{
+  background:#ebedf0;
+  width:95% ;
+  margin: auto;
+}
+
+
+.carddeckser {
+  background-color: #F8FAFB;
+}
+
+.Service-all{
+  background-color: #F8FAFB;
+}
+
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap:50px;
+  background: #B3B8BE;
+  border:none;
+  margin-top: -100px;
+}
+.price-client{
+  
+  background: #B3B8BE;
+}
+
+h1{
+  text-align: center;
+  margin-top: 30px ;
+  font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+}
+
+h5{
+  font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+}
+.powered{
+  color: white;
+  font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 24px;
+}
+
+.whole-footer{
+  background: #000;
+  padding: 20px 20px 20px 20px;
+}
+
+.hov{
+ padding:20px;
+ font-size:30px;
+ color: #fff;
+}
+.txt{
+  text-align: left;
+  font-weight: 700;
+  color:white;
+  display: flex;
+}
+
+.txt-contact{
+  font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+}
+
+.whole-contact{
+  margin-top: 30px;
+}
+
+.txt-header{
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+margin-bottom: 10px;
+}
+.txt1{
+  text-align:right;
+  font-weight: 700;
+  color:white;
+  position: relative;
+  left: 70px;
+}
+
+
+.txt2{
+  color:white;
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+}
+.icons{
+  display:inline;
+  padding:20px;
+}
+ 
+#home{
+    
+  animation-name: fade;
+
+  -webkit-animation: fade 3s 1 linear;
+}
+
+.modal-body{
+  background: #e0e6ee;
+}
+.tab-content{
+  margin:10px 40px 0px 40px;
+}
+
+.modal-footer{
+  background: #B3B8BE;
+}
+.modalsection2{
+  margin-top: 20px;
+}
+.nav-item{
+  margin:-5px -5px -10px -5px;
+}
+.review{
+  background : white ;
+}
+
+
+@keyframes fade{
+0% {
+  opacity: 0;
+}
+
+20% {
+  opacity: 0;
+}
+30% {
+  opacity: 0.4;
+}
+60% {
+  opacity: 0.6;
+}
+80% {
+  opacity: 0.8;
+}
+100% {
+  opacity: 1;
+}
+}
+/* 
+media query begins here */
+@media(max-width:1200px){
+  .serviceImg{
+    width:100px;
+  }
+  .pricing-right{
+  padding-right: 50px;
+  }
+}
+
+@media(max-width:900px){
+  .B-jumbotron, .B-jumbotron1{
+    background:#e0e6ee;
+  }
+  .housing{
+    display:grid;
+  }
+  .linkkk{
+    position: relative;
+    left:170px;
+  }
+  .locawifi{
+    position:relative;
+    bottom:-12px;
+  }
+  .features{
+    width:620px;
+    font-size: 0.5px;
+  }
+  .features:hover{
+    font-size:1rem;
+    opacity:3;
+    transition: 2s;
+  }
+  .Service-all{
+ display:grid;
+
+  }
+  .wholediv{
+    width:700px;
+  }
+  .serviceImg{
+    width:100px;
+  }
+
+  #price{
+    position: relative;
+    left:20px;
+    padding: -20px;
+    top:-8px;
+    
+  }
+  .pricing{
+    position: relative;
+    left:-40px;
+    
+  }
+  .client1{
+    position: relative;
+    top:55px;
+  }
+ .josla-img{
+   position: relative;
+   left:-20px;
+ }
+  #client{
+    position: relative;
+    top:52px;
+    padding-bottom: 30px;
+
+  }
+ .price-client-container{
+   position: relative;
+   padding:-20px;
+ }
+ .clients-header{
+   position: relative;
+   top:-20px;
+ }
+  .grid-container{
+ position: relative;
+ top:15px;
+  }
+ .footies{
+   position: relative;
+   top:10px;
+ }.josla,  .powered{
+   position: relative;
+    right:30px;
+ }
+
+}
+@media(max-width:600px){
+  .housing{
+  width:420px;
+  }
+  .locawifi{
+    position: relative;
+    left:30px;
+
+  }
+  .adlib-left{
+    position: relative;
+    left:10px;
+  }
+  .linkkk{
+    position: relative;
+    right:10px;
+    font-size: 18px;
+  }
+  .features{
+    width:180px;
+  }
+  .Service-all{
+width:420px;
+  }
+  .features{
+    display:grid;
+  }
+  .wholediv{
+ width:200px;
+  }
+  .pricing{
+    width:350px;
+  }
+  .pricing-right-text{
+    position: relative;
+    left:-25px;
+    font-size: 12px;
+  }
+  .grid-container{
+    position: relative;
+    right:10px;
+  }
+  .lead{
+    position: relative;
+    right:10px;
+  }
+}
+
+@media(max-width:350px){
+  .features{
+    width:180px;
+  }
+  #price{
+    width:100px;
+  }
+  .locawifi{
+    position: relative;
+    left:-25px;
+    
+
+  }
+ .font,.leads{
+   position: relative;
+   left:-27px;
+ }
+ .lead{
+  position: relative;
+  left:-40px;
+  font-size: 2rem;
+  width:100px;
+ }
+ .linkkk{
+  position: relative;
+  left:120px;
+ }
+ .pricing{
+  width:320px;
+}
+.grid-container{
+  display:grid;
+  grid-template-rows: auto;
+  grid-gap: 5px;
+ 
+}
+.price-client-container{
+  width:320px;
+}
+}
+.group input{
+  font-size:30px;
+  font-weight:bolder;
+  color:#652B5A;
+  border:5px #652B5A solid;
+  overflow-y:scroll;
+}
+
+
+@keyframes App-logo-spin {
+
+  to {
+    transform: scale(1.2);
+  }
+}
