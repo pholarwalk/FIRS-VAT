@@ -426,7 +426,7 @@ class Forms extends React.Component {
         <Label for="exampleEmail" sm={1}>130</Label>
           <Label for="exampleEmail" sm={6}>VAT Credit for the Current Period</Label>
           <Col sm={5}>
-          <Input
+          <Input onChange={this.handlenum11Change}
             type="number"
             name="number"
             id="exampleNumber"
