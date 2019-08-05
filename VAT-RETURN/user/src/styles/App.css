@@ -205,197 +205,32 @@ margin-bottom: 10px;
 }
 /* 
 media query begins here */
-@media(max-width:1200px){
-  .serviceImg{
-    width:100px;
+
+
+@media(max-width:425px){
+  img{
+    width:300px;
   }
-  .pricing-right{
-  padding-right: 50px;
+  .icons{
+    margin-left: 50px;
+  }
+  .header{
+    display: none;
   }
 }
 
-@media(max-width:900px){
-  .B-jumbotron, .B-jumbotron1{
-    background:#e0e6ee;
+@media(max-width:320px){
+  img{
+    width:280px;
   }
-  .housing{
-    display:grid;
+  .hov{
+    padding:10px;
   }
-  .linkkk{
-    position: relative;
-    left:170px;
+  .icons{
+    margin-left: 30px;
   }
-  .locawifi{
-    position:relative;
-    bottom:-12px;
-  }
-  .features{
-    width:620px;
-    font-size: 0.5px;
-  }
-  .features:hover{
-    font-size:1rem;
-    opacity:3;
-    transition: 2s;
-  }
-  .Service-all{
- display:grid;
-
-  }
-  .wholediv{
-    width:700px;
-  }
-  .serviceImg{
-    width:100px;
-  }
-
-  #price{
-    position: relative;
-    left:20px;
-    padding: -20px;
-    top:-8px;
-    
-  }
-  .pricing{
-    position: relative;
-    left:-40px;
-    
-  }
-  .client1{
-    position: relative;
-    top:55px;
-  }
- .josla-img{
-   position: relative;
-   left:-20px;
- }
-  #client{
-    position: relative;
-    top:52px;
-    padding-bottom: 30px;
-
-  }
- .price-client-container{
-   position: relative;
-   padding:-20px;
- }
- .clients-header{
-   position: relative;
-   top:-20px;
- }
-  .grid-container{
- position: relative;
- top:15px;
-  }
- .footies{
-   position: relative;
-   top:10px;
- }.josla,  .powered{
-   position: relative;
-    right:30px;
- }
-
-}
-@media(max-width:600px){
-  .housing{
-  width:420px;
-  }
-  .locawifi{
-    position: relative;
-    left:30px;
-
-  }
-  .adlib-left{
-    position: relative;
-    left:10px;
-  }
-  .linkkk{
-    position: relative;
-    right:10px;
-    font-size: 18px;
-  }
-  .features{
-    width:180px;
-  }
-  .Service-all{
-width:420px;
-  }
-  .features{
-    display:grid;
-  }
-  .wholediv{
- width:200px;
-  }
-  .pricing{
-    width:350px;
-  }
-  .pricing-right-text{
-    position: relative;
-    left:-25px;
-    font-size: 12px;
-  }
-  .grid-container{
-    position: relative;
-    right:10px;
-  }
-  .lead{
-    position: relative;
-    right:10px;
+  .header{
+    display: none;
   }
 }
-
-@media(max-width:350px){
-  .features{
-    width:180px;
-  }
-  #price{
-    width:100px;
-  }
-  .locawifi{
-    position: relative;
-    left:-25px;
-    
-
-  }
- .font,.leads{
-   position: relative;
-   left:-27px;
- }
- .lead{
-  position: relative;
-  left:-40px;
-  font-size: 2rem;
-  width:100px;
- }
- .linkkk{
-  position: relative;
-  left:120px;
- }
- .pricing{
-  width:320px;
-}
-.grid-container{
-  display:grid;
-  grid-template-rows: auto;
-  grid-gap: 5px;
  
-}
-.price-client-container{
-  width:320px;
-}
-}
-.group input{
-  font-size:30px;
-  font-weight:bolder;
-  color:#652B5A;
-  border:5px #652B5A solid;
-  overflow-y:scroll;
-}
-
-
-@keyframes App-logo-spin {
-
-  to {
-    transform: scale(1.2);
-  }
-}
