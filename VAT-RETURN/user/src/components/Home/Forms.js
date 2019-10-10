@@ -1,6 +1,9 @@
 import React from "react";
 
 import { Form, FormGroup, Label, Input, Col, Row, Button } from "reactstrap";
+import LineNo from "./LineNo";
+import LineNo3 from "./LineNo3";
+import LineNo2 from "./LineNo2";
 
 class Forms extends React.Component {
   constructor(props) {
@@ -140,7 +143,7 @@ class Forms extends React.Component {
         <h2>A</h2>
         <Row>
           <Col sm={2}>
-            <h4 className="header">LINE No</h4>{" "}
+            <h4 className="header-line"><LineNo/></h4>{" "}
           </Col>
           <Col sm={5}>
             <h4> SALES/ INCOME </h4>{" "}
@@ -264,7 +267,7 @@ class Forms extends React.Component {
         <h2>B </h2>
         <Row>
           <Col sm={2}>
-            <h4 className="header">LINE No</h4>{" "}
+            <h4 className="header-line"><LineNo2/></h4>{" "}
           </Col>
           <Col sm={5}>
             <h4>PURCHASES EXPENSES </h4>{" "}
@@ -490,7 +493,7 @@ class Forms extends React.Component {
 
         <Row>
           <Col sm={2}>
-            <h4 className="header">LINE No</h4>{" "}
+            <h4 className="header-line"><LineNo3/></h4>{" "}
           </Col>
         </Row>
         <Form>
@@ -678,7 +681,7 @@ class Forms extends React.Component {
             </Col>
           </FormGroup>
 
-          <Label>YOUR VAT PAYABLE {this.state.result150} </Label>
+          <Label><h1>YOUR VAT PAYABLE :  {this.state.result150}</h1>  </Label>
         </Form>
       </div>
     );

@@ -70,7 +70,7 @@ contactSubmit(e){
         return (
             <div className="credential-container">
              <h1>VALUE ADDED TAX RETURN FORM 002 </h1>
-             <h2>Type in Your Information</h2>
+             <h4>Type in Your Information</h4>
                 <Form  name="contactform" className="contactform" onSubmit= {this.contactSubmit.bind(this)}>
                 <Row form>
           <Col md={6}>
@@ -88,7 +88,7 @@ contactSubmit(e){
           </Col>
           <Col md={6}>
             <FormGroup row>
-            <Label for="exampleDate" sm={6}>Ending Date</Label>
+            <Label className="right-contactform" for="exampleDate" sm={5}>Ending Date</Label>
               <Col sm={6}>
               <Input
             type="date"
@@ -112,7 +112,7 @@ contactSubmit(e){
           </Col>
           <Col md={6}>
             <FormGroup row>
-              <Label sm={6}>TIN</Label>
+              <Label className="right-contactform" sm={5}>TIN</Label>
               <Col sm={6}>
               <Input type="number"  id="tin" />
               </Col>
@@ -130,7 +130,7 @@ contactSubmit(e){
           </Col>
           <Col md={6}>
             <FormGroup row>
-              <Label sm={6}>Doc No.</Label>
+              <Label className="right-contactform" sm={5}>Doc No.</Label>
               <Col sm={6}>
               <Input type="number"  id="docnumber" />
               </Col>
@@ -148,7 +148,7 @@ contactSubmit(e){
           </Col>
           <Col md={6}>
             <FormGroup row>
-              <Label sm={6}>Tel. No </Label>
+              <Label className="right-contactform" sm={5}>Tel. No </Label>
               <Col sm={6}>
               <Input type="number" name="tel" id="tel" />
               </Col>
@@ -167,9 +167,9 @@ contactSubmit(e){
           </Col>
           <Col md={6}>
             <FormGroup row>
-              <Label for="examplePassword" sm={6}>Corporate Website</Label>
+              <Label className="right-contactform" sm={5}>Corporate Website</Label>
               <Col sm={6}>
-              <Input type="email" name="email" id="exampleEmail" />
+              <Input type="text" name="email" id="exampleEmail" />
               </Col>
             </FormGroup>
           </Col>
