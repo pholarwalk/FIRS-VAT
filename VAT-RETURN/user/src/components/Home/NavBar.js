@@ -12,7 +12,7 @@ import {
   NavLink,
   // Spinner
 } from 'reactstrap';
-import LineNo from './LineNo';
+// import LineNo from './LineNo';
 
 // images
 
@@ -40,7 +40,7 @@ class NavBar extends React.Component {
         <Navbar expand="md" id="home" className="B-jumbotron1 " >
           <NavbarBrand className="brandlogo" href="#"><img src={require("../../images/logo.png")} alt="FIRS" /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
-          <NavLink className="line" href="#"> <LineNo/></NavLink>
+          {/* <NavLink className="line" href="#"> <LineNo/></NavLink> */}
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto " navbar>
               

@@ -30,7 +30,9 @@
   width: 80%;
   margin: auto;
 }
-
+.right-contactform{
+  margin-left: 20px;
+}
 .nav-link{
 margin: 10px;
 font-weight: 700;
@@ -43,7 +45,9 @@ position: fixed;
 margin-top: 32px;
 z-index: 1;
 }
-
+.header-line{
+  margin-right: 20px;
+}
 .B-jumbotron1{
   background:#ebedf0;
   width:95% ;
