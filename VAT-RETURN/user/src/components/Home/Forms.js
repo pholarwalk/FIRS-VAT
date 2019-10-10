@@ -681,7 +681,7 @@ class Forms extends React.Component {
             </Col>
           </FormGroup>
 
-          <Label><h1>YOUR VAT PAYABLE :  {this.state.result150}</h1>  </Label>
+          <Label><h1> Your VAT PAYABLE :  {this.state.result150}</h1>  </Label>
         </Form>
       </div>
     );
